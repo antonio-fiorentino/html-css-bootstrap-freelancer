@@ -3,6 +3,11 @@
 }
 .container{
   padding: 0px;
+  text-align: center;
+}
+body{
+  text-align: center;
+
 }
 nav{
   background-color: blue;
@@ -10,7 +15,8 @@ nav{
 }
 header{
   background-color: #1abc9c;
-  text-align: center;
+  padding-bottom: 20px;
+  width: 100%;
 }
 header>img{
   height: 200px;
@@ -24,6 +30,12 @@ h1{
 }
 h2{
   text-transform: uppercase;
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+}
+h3{
+  text-transform: uppercase;
   color: #fff;
   font-size: 12px;
 }
@@ -36,4 +48,15 @@ h2{
   border-bottom: 3px solid white;
   width: 100px;
   margin-left: 20px;
+}
+.row{
+  padding: 0px 15px;
+}
+.row img{
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 0px 15px;
+
 }
