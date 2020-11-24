@@ -126,7 +126,8 @@ h3{
 p{
   margin: 2% 30%
 }
-.bottone{
+.bottone>div>a{
+  text-decoration: none;
 }
 .bottone>div{
   border: 1px solid #fff;
