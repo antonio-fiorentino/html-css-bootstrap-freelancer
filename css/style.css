@@ -7,7 +7,6 @@
 }
 body{
   text-align: center;
-
 }
 nav{
   background-color: blue;
@@ -17,6 +16,7 @@ header{
   background-color: #1abc9c;
   padding-bottom: 20px;
   width: 100%;
+  margin-bottom: 30px;
 }
 header>img{
   height: 200px;
@@ -49,14 +49,14 @@ h3{
   width: 100px;
   margin-left: 20px;
 }
-.row{
-  padding: 0px 15px;
-}
-.row img{
-  width: 80%;
-  height: 80%;
+.immagini img{
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   margin-bottom: 50px;
-  padding: 0px 15px;
+}
 
+.about{
+  height: 500px;
+  background-color: #1abc9c;
 }
